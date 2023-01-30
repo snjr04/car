@@ -1,5 +1,5 @@
 .begin{
-  background: url("../image/begin.png")center/cover no-repeat;
+  background: url("../image/begin.png")center/cover no-repeat ;
   &__menu{
     display: flex;
     flex-wrap: wrap;
@@ -46,7 +46,7 @@
     row-gap: 13px;
   }
   &__btn{
-    padding: 36px 0 0;
+    padding: 66px 0 0;
   }
   &__box{
     display: flex;
@@ -64,4 +64,7 @@
     font-size: 30px;
     padding: 18px 0 10px;
   }
+}
+#btn{
+  padding-right: 1px!important;
 }
