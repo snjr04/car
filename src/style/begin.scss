@@ -1,0 +1,67 @@
+.begin{
+  background: url("../image/begin.png")center/cover no-repeat;
+  &__menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 145px 0 100px;
+    &-right{
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      background: rgba(255, 255, 255, 0.64);
+      border-radius: 24px;
+      padding: 19px 10px;
+    }
+    &-left{
+    }
+  }
+  &__icon{
+    display: flex;
+    align-items: center;
+  }
+  &__list{
+    background: rgba(255, 255, 255, 0.64);
+    padding: 54px;
+    border-radius: 22px;
+    border: 1px solid #FFFFFF;
+  }
+  &__title{
+    font-weight: 800;
+    font-size: 60px;
+  }
+  &__tit{
+    color:rgba(250, 0, 44, 1);
+    font-weight: 800;
+    font-size: 60px;
+  }
+  &__text{
+    font-weight: 600;
+    font-size: 20px;
+    padding: 24px 0 34px;
+  }
+  &__info{
+    font-weight: 600;
+    font-size: 26px;
+    row-gap: 13px;
+  }
+  &__btn{
+    padding: 36px 0 0;
+  }
+  &__box{
+    display: flex;
+    background: #F8F8F8;
+    border: 1px solid #FFFFFF;
+    border-radius: 24px;
+    &-text{
+      font-weight: 400;
+      font-size: 18px;
+      padding: 0 40px 19px 10px;
+    }
+  }
+  &__subtitle{
+    font-weight: 600;
+    font-size: 30px;
+    padding: 18px 0 10px;
+  }
+}

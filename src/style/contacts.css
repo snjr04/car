@@ -1,0 +1,239 @@
+* {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1920px;
+  padding: 0;
+}
+
+.header {
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+  padding-bottom: 145px;
+}
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.header__title {
+  background: transparent;
+  fill: transparent;
+}
+.header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 48px;
+     -moz-column-gap: 48px;
+          column-gap: 48px;
+  cursor: pointer;
+}
+.header__list :hover {
+  color: #FA002C;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+.header__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacts {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+.contacts__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 150px 0 90px;
+}
+.contacts__title {
+  font-weight: 700;
+  font-size: 50px;
+  padding: 0 200px 20px 0;
+}
+.contacts__text {
+  font-weight: 500;
+  font-size: 18px;
+}
+.contacts__info {
+  padding: 16px;
+  margin-top: 18px;
+}
+.contacts__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+  color: black;
+  padding: 60px 90px 0 0;
+}
+.contacts__btn {
+  padding: 16px;
+  margin: 35px 0;
+  position: relative;
+}
+.contacts__list {
+  padding: 0 0 60px 20px;
+}
+.contacts__list :hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: rgb(250, 0, 44);
+}
+.contacts__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.contacts__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#checkbox {
+  position: absolute;
+  top: 530px;
+  cursor: pointer;
+}
+
+a {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#right {
+  padding-right: 120px;
+}
+
+.location__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.location__menu-left {
+  background: #F8F8F8;
+  border: 7px solid rgba(250, 0, 44, 0.2);
+  border-radius: 36px;
+  overflow: hidden;
+}
+.location__menu-right {
+  background: #F8F8F8;
+  border: 7px solid rgba(250, 0, 44, 0.2);
+  border-radius: 36px;
+  overflow: hidden;
+}
+.location__title {
+  padding: 100px 0 32px 165px;
+  font-weight: 700;
+  font-size: 50px;
+}
+.location__adress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 50px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.location__subtitle {
+  padding: 20px 0 15px;
+  font-size: 30px;
+}
+.location__num {
+  font-weight: 600;
+  font-size: 30px;
+}
+.location__text {
+  padding: 0 0 45px 78px;
+}
+
+#num {
+  padding-left: 300px;
+}
+
+.footer__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-top: 160px;
+}
+.footer__text {
+  font-weight: 400;
+  font-size: 16px;
+  padding: 16px 0 72px;
+}
+.footer__links {
+  font-weight: 500;
+  font-size: 18px;
+  padding-top: 10px;
+}
+.footer__links :hover {
+  color: rgb(250, 0, 44);
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-underline: auto;
+}
+.footer__list {
+  padding-top: 16px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+a {
+  color: black;
+}

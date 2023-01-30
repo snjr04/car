@@ -1,0 +1,19 @@
+.begin {
+  background: url("../image/begin bg.png") center/cover no-repeat;
+}
+.begin__menu {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 145px 0 290px;
+}
+.begin__list {
+  background: rgb(255, 255, 255);
+  padding: 54px;
+}
+.begin__title {
+  font-weight: 800;
+  font-size: 60px;
+}
+.begin__tit {
+  color: rgb(250, 0, 44);
+}

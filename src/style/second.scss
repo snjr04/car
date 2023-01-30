@@ -1,0 +1,22 @@
+.second{
+  padding: 250px 0 0 300px;
+
+  background: url("../image/free bg.png")center/cover no-repeat;
+  &__title{
+    font-weight: 700;
+    font-size: 50px;
+  }
+  &__tit{
+    font-weight: 700;
+    font-size: 50px;
+    color: rgba(250, 0, 44, 1);
+  }
+  &__text{
+    font-weight: 400;
+    font-size: 16px;
+    padding: 24px 0 50px;
+  }
+  &__btn{
+    padding-bottom: 100px;
+  }
+}

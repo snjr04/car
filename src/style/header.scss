@@ -1,0 +1,32 @@
+.header{
+  position: absolute;
+  z-index: 999;
+  width: 100%;
+  padding-bottom: 145px;
+  &__nav{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  &__title{
+    background: transparent;
+    fill: transparent;
+  }
+  &__list{
+
+    display: flex;
+    align-items: center;
+    column-gap: 48px;
+    cursor: pointer;
+    :hover{
+      color: #FA002C;
+      text-decoration: underline;
+      text-underline-offset: 10px;
+    }
+  }
+  &__btn{
+    display: flex;
+    align-items: center;
+
+  }
+
+}

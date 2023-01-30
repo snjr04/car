@@ -1,0 +1,45 @@
+.location{
+  &__menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    &-left{
+      background: #F8F8F8;
+      border: 7px solid rgba(250, 0, 44, 0.2);
+      border-radius: 36px;
+      overflow: hidden;
+    }
+    &-right{
+      background: #F8F8F8;
+      border: 7px solid rgba(250, 0, 44, 0.2);
+      border-radius: 36px;
+      overflow: hidden;
+    }
+
+  }
+  &__title{
+    padding: 100px 0 32px 165px;
+    font-weight: 700;
+    font-size: 50px;
+  }
+  &__adress{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px 0;
+    align-items: center;
+  }
+  &__subtitle{
+    padding: 20px 0 15px;
+    font-size: 30px;
+  }
+  &__num{
+    font-weight: 600;
+    font-size: 30px;
+  }
+  &__text{
+    padding: 0 0 45px 78px;
+  }
+}
+#num{
+  padding-left: 300px;
+}

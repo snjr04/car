@@ -1,0 +1,50 @@
+*{
+  text-decoration: none;
+  list-style-type: none;
+  font-family: Montserrat,sans-serif;
+  font-weight: 500;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+.container{
+  margin: 0 auto;
+  max-width: 1920px;
+  padding: 0;
+
+}
+.btn{
+  display: flex;
+  font-family: 'Poppins',sans-serif;
+  justify-content: center;
+  align-items: center;
+  background: rgba(250, 0, 44, 1);
+  padding: 16px 21px;
+  border: none;
+  border-radius: 14px;
+  color: #F8F8F8;
+  cursor: pointer;
+
+}
+.color{
+  color: #F8F8F8;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+
+@import "header";
+@import "begin";
+@import "second";
+@import "location";
+@import "overlay";
+@import "karean";
+@import "footer";

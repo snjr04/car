@@ -1,0 +1,8 @@
+.second {
+  padding: 100px 0;
+  background: url("../image/free bg.png") center/cover no-repeat;
+}
+.second__title {
+  font-weight: 700;
+  font-size: 50px;
+}

@@ -1,0 +1,36 @@
+.footer {
+
+  &__menu{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 160px;
+  }
+  &__text{
+    font-weight: 400;
+    font-size: 16px;
+    padding: 16px 0 72px;
+  }
+  &__links{
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 10px;
+    :hover{
+      color: rgba(250, 0, 44, 1);
+      text-decoration: underline;
+      text-underline-offset: 10px;
+      text-underline: auto;
+    }
+  }
+
+  &__list{
+    padding-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+
+}
+a{
+  color: black;
+}
+
