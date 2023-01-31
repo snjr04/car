@@ -1,0 +1,62 @@
+.kia{
+  &__menu{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20pxpx;
+  }
+  &__ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &__subtitle{
+    color: #fa003e;
+    padding: 10px 0;
+    font-weight: 700;
+    font-size: 24px;
+  }
+  &__list{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__box{
+    width: 435px;
+    padding-left: 32px;
+  }
+
+  &__title{
+    padding: 30px 0;
+    font-weight: 700;
+    font-size: 50px;
+  }
+  &__list-price{
+    padding: 40px 0;
+  }
+  &__list-sale{
+    padding: 16px 22px;
+    margin: 24px 0;
+    background: #FEE5E9;
+    border-bottom-left-radius: 35px;
+    border-top-left-radius: 35px;
+  }
+  &__sale{
+    font-weight: 800;
+    font-size: 24px;
+    color: #FA002C;
+  }
+  &__btn{
+    padding-left: 32px;
+  }
+  &__bt{
+    padding: 16px 100px;
+    margin:0 0 30px 0;
+  }
+  &__infoa{
+    font-weight: 600;
+    font-size: 16px;
+  }
+}
+.video_icon{
+
+}
+@import "footer";

@@ -1,5 +1,6 @@
 .begin{
   background: url("../image/begin.png")center/cover no-repeat ;
+
   &__menu{
     display: flex;
     flex-wrap: wrap;
@@ -64,7 +65,6 @@
     font-size: 30px;
     padding: 18px 0 10px;
   }
+
 }
-#btn{
-  padding-right: 1px!important;
-}
+
