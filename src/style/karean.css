@@ -4744,6 +4744,57 @@ a {
   color: white;
 }
 
+.location__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.location__menu-left {
+  background: #F8F8F8;
+  border: 7px solid rgba(250, 0, 44, 0.2);
+  border-radius: 36px;
+  overflow: hidden;
+}
+.location__menu-right {
+  background: #F8F8F8;
+  border: 7px solid rgba(250, 0, 44, 0.2);
+  border-radius: 36px;
+  overflow: hidden;
+}
+.location__title {
+  padding: 100px 0 32px 165px;
+  font-weight: 700;
+  font-size: 50px;
+}
+.location__adress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 50px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.location__subtitle {
+  padding: 20px 0 15px;
+  font-size: 30px;
+}
+.location__num {
+  font-weight: 600;
+  font-size: 30px;
+}
+.location__text {
+  padding: 0 0 45px 78px;
+}
+
 .kia__menu {
   display: -webkit-box;
   display: -ms-flexbox;

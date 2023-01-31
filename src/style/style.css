@@ -84,6 +84,41 @@
           align-items: center;
 }
 
+.footer__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-top: 160px;
+}
+.footer__text {
+  font-weight: 400;
+  font-size: 16px;
+  padding: 16px 0 72px;
+}
+.footer__links {
+  font-weight: 500;
+  font-size: 18px;
+  padding-top: 10px;
+}
+.footer__links :hover {
+  color: rgb(250, 0, 44);
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-underline: auto;
+}
+.footer__list {
+  padding-top: 16px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+a {
+  color: black;
+}
+
 .begin {
   background: url("../image/begin.png") center/cover no-repeat;
 }
@@ -154,6 +189,7 @@
   background: #F8F8F8;
   border: 1px solid #FFFFFF;
   border-radius: 24px;
+  cursor: pointer;
 }
 .begin__box-text {
   font-weight: 400;
@@ -164,10 +200,6 @@
   font-weight: 600;
   font-size: 30px;
   padding: 18px 0 10px;
-}
-
-#btn {
-  padding-right: 1px !important;
 }
 
 .second {
@@ -5122,6 +5154,57 @@ a {
   color: white;
 }
 
+.location__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.location__menu-left {
+  background: #F8F8F8;
+  border: 7px solid rgba(250, 0, 44, 0.2);
+  border-radius: 36px;
+  overflow: hidden;
+}
+.location__menu-right {
+  background: #F8F8F8;
+  border: 7px solid rgba(250, 0, 44, 0.2);
+  border-radius: 36px;
+  overflow: hidden;
+}
+.location__title {
+  padding: 100px 0 32px 165px;
+  font-weight: 700;
+  font-size: 50px;
+}
+.location__adress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 50px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.location__subtitle {
+  padding: 20px 0 15px;
+  font-size: 30px;
+}
+.location__num {
+  font-weight: 600;
+  font-size: 30px;
+}
+.location__text {
+  padding: 0 0 45px 78px;
+}
+
 .kia__menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5301,41 +5384,6 @@ a {
 .kia__infoa {
   font-weight: 600;
   font-size: 16px;
-}
-
-.footer__menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  padding-top: 160px;
-}
-.footer__text {
-  font-weight: 400;
-  font-size: 16px;
-  padding: 16px 0 72px;
-}
-.footer__links {
-  font-weight: 500;
-  font-size: 18px;
-  padding-top: 10px;
-}
-.footer__links :hover {
-  color: rgb(250, 0, 44);
-  text-decoration: underline;
-  text-underline-offset: 10px;
-  text-underline: auto;
-}
-.footer__list {
-  padding-top: 16px;
-  font-weight: 400;
-  font-size: 16px;
-}
-
-a {
-  color: black;
 }
 
 .footer__menu {
