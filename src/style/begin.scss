@@ -71,3 +71,47 @@
   }
 }
 
+@media (max-width: 1000px) {
+  .begin{
+    &__menu{
+      padding: 150px 10px 0  10px!important;
+      row-gap: 30px;
+    }
+    &__list{
+      padding: 20px!important;
+    }
+  }
+
+}
+@media (max-width: 700px) {
+  .begin{
+    &__title{
+      font-weight: 800!important;
+      font-size: 40px!important;
+    }
+    &__tit{
+      color:rgba(250, 0, 44, 1);
+      font-weight: 800;
+      font-size: 40px;
+    }
+    &__text{
+     font-weight: 500;
+     font-size: 14px;
+     padding: 10px 0 20px;
+   }
+    &__info{
+      font-weight: 500;
+      font-size: 26px;
+      row-gap: 0!important;
+    }
+    &__subtitle{
+      font-weight: 500;
+      font-size: 25px;
+      padding: 18px 0 10px;
+    }
+
+
+  }
+
+  
+}

@@ -43,3 +43,11 @@
 #num{
   padding-left: 300px;
 }
+
+@media (max-width: 1000px) {
+  .location{
+    &__menu {
+      row-gap: 30px;
+    }
+  }
+}
