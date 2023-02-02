@@ -4872,6 +4872,8 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap !important;
+      flex-wrap: wrap !important;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
@@ -4901,4 +4903,32 @@ a {
 
 a {
   color: black;
+}
+
+@media (max-width: 1100px) {
+  .footer__menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+@media (max-width: 700px) {
+  .footer__text {
+    font-weight: 300;
+    font-size: 12px;
+    padding: 16px 0 72px;
+  }
+  .footer__links {
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 10px;
+  }
+  .footer__links :hover {
+    color: rgb(250, 0, 44);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-underline: auto;
+  }
 }

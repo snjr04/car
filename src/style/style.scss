@@ -35,6 +35,21 @@
 }
 
 
+@media (max-width:800px ) {
+  #media{
+    font-weight: 400!important;
+    font-size: 5px!important;
+  }
+  .btn{
+    font-size: 12px!important;
+    font-weight: 500!important;
+
+
+  }
+
+
+}
+
 @import "header";
 @import "begin";
 @import "second";
