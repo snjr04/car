@@ -1,19 +1,23 @@
 
 let callBtn = document.querySelector('.call');
-let overlay = document.querySelector('.overlay');
+let overlay = document.querySelectorAll('.overlay');
 
-let closeBtn = document.querySelector('.overlay__close');
+let closeBtn = document.querySelectorAll('.overlay__close');
 
-callBtn.onclick = function () {
-    overlay.style.display = 'flex'
-};
+callBtn.addEventListener('click',()=>{
+    overlay.style.display = 'block'
+})
 
-closeBtn.onclick = function () {
+closeBtn.addEventListener('click',()=>{
     overlay.style.display = 'none'
-};
+})
 
-overlay.onclick = function (event) {
+overlay.addEventListener('click',(event)=>{
     if (event.target.classList.contains('overlay')) {
         overlay.style.display = 'none'
     }
-};
+})
+
+
+console.log('hi')
+console.log(1245313)
